@@ -1,0 +1,14 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.git/
+.docker*
+.dockerignore
+Dockerfile*
+docker-compose.yml
+backend/
+train_model.py
+api/fastapi_app.py
+api/Dockerfile
+*.egg-info/

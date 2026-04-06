@@ -4,9 +4,6 @@ import { useState } from "react";
 import ResultCard from "@/app/components/ResultCard";
 import HistoryPanel from "@/app/components/HistoryPanel";
 
-const isDev = process.env.NODE_ENV === "development";
-const API_URL = isDev ? "http://localhost:8000" : "";
-
 interface HistoryEntry {
   id: number;
   message: string;
@@ -36,7 +33,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const res = await fetch(`${API_URL}/predict`, {
+      const res = await fetch(`/api/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message }),

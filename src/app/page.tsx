@@ -4,7 +4,8 @@ import { useState } from "react";
 import ResultCard from "@/app/components/ResultCard";
 import HistoryPanel from "@/app/components/HistoryPanel";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const isDev = process.env.NODE_ENV === "development";
+const API_URL = isDev ? "http://localhost:8000" : "";
 
 interface HistoryEntry {
   id: number;

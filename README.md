@@ -4,8 +4,11 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688)](https://fastapi.tiangolo.com/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6-orange)](https://scikit-learn.org/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel)](https://spam-detector-pink.vercel.app/)
 
 Detector de spam e fraudes em mensagens de PIX usando **Machine Learning** com interface web moderna.
+
+**🔗 Live Demo:** https://spam-detector-pink.vercel.app/
 
 ## 🚀 Como Rodar
 

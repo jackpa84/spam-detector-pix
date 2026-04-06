@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/predict/index.py": {
+      "runtime": "@vercel/python"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/predict",
+      "destination": "/api/predict/index.py"
+    }
+  ]
+}
